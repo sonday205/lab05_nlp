@@ -1,0 +1,8 @@
+{
+  "output_max_abs_error": 0.0,
+  "input_gradient_max_abs_error": 0.0,
+  "hidden_gradient_max_abs_error": 0.0,
+  "batch_size": 2,
+  "input_size": 3,
+  "hidden_size": 4
+}

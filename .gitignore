@@ -1,0 +1,17 @@
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+data/*.csv
+!data/split_summary.csv
+!data/token_retention.csv
+artifacts/*/best.pt
+!artifacts/GRU_len200/best.pt
+artifacts/*/model.joblib
+artifacts/order_test_sample.csv
+imdb.zip
+experiments.log
+*.log
+W5.pdf
+.env
+.env.*
+!.env.example

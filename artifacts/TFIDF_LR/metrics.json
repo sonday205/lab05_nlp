@@ -1,0 +1,23 @@
+{
+  "model": "TFIDF_LR",
+  "architecture": "LR",
+  "representation": "TF-IDF unigram+bigram",
+  "max_length": null,
+  "parameters": 50001,
+  "vocabulary_size": 50000,
+  "epochs": null,
+  "best_epoch": null,
+  "training_seconds": 22.339032296004007,
+  "fit_seconds": 22.339032296004007,
+  "validation_f1": 0.9030087094220111,
+  "validation_loss": 0.27050252035616473,
+  "device": "cpu",
+  "split": "test",
+  "signature": "3df0f022d6564113dedb1f4fbb5dd46385463e3a51efc7de2affcaf6fc99e5ad",
+  "loss": 0.26280453987682806,
+  "accuracy": 0.9081282775312626,
+  "precision": 0.8984512840619486,
+  "recall": 0.9210209003215434,
+  "f1": 0.9095961099533592,
+  "macro_f1": 0.9081040519013336
+}

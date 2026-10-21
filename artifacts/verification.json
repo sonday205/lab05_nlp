@@ -1,0 +1,122 @@
+{
+  "status": "passed",
+  "unit_tests": 6,
+  "models": [
+    {
+      "model": "TFIDF_LR",
+      "test_samples": 9916,
+      "metrics_match": true,
+      "checkpoint_reload_samples": 128,
+      "reload_device": "cuda",
+      "reload_max_probability_error": 1.1102230246251565e-16,
+      "cpu_vs_saved_gpu_max_probability_error": 0.0,
+      "cpu_vs_saved_gpu_changed_classes": 0
+    },
+    {
+      "model": "RNN_len50",
+      "test_samples": 9916,
+      "metrics_match": true,
+      "checkpoint_reload_samples": 128,
+      "reload_device": "cuda",
+      "reload_max_probability_error": 1.1102230246251565e-16,
+      "cpu_vs_saved_gpu_max_probability_error": 0.0002194344997406561,
+      "cpu_vs_saved_gpu_changed_classes": 0
+    },
+    {
+      "model": "RNN_len100",
+      "test_samples": 9916,
+      "metrics_match": true,
+      "checkpoint_reload_samples": 128,
+      "reload_device": "cuda",
+      "reload_max_probability_error": 1.1102230246251565e-16,
+      "cpu_vs_saved_gpu_max_probability_error": 0.0008896887302398127,
+      "cpu_vs_saved_gpu_changed_classes": 0
+    },
+    {
+      "model": "RNN_len200",
+      "test_samples": 9916,
+      "metrics_match": true,
+      "checkpoint_reload_samples": 128,
+      "reload_device": "cuda",
+      "reload_max_probability_error": 1.1102230246251565e-16,
+      "cpu_vs_saved_gpu_max_probability_error": 0.0005012750625610352,
+      "cpu_vs_saved_gpu_changed_classes": 0
+    },
+    {
+      "model": "LSTM_len50",
+      "test_samples": 9916,
+      "metrics_match": true,
+      "checkpoint_reload_samples": 128,
+      "reload_device": "cuda",
+      "reload_max_probability_error": 1.1102230246251565e-16,
+      "cpu_vs_saved_gpu_max_probability_error": 0.0007611513137817383,
+      "cpu_vs_saved_gpu_changed_classes": 0
+    },
+    {
+      "model": "LSTM_len100",
+      "test_samples": 9916,
+      "metrics_match": true,
+      "checkpoint_reload_samples": 128,
+      "reload_device": "cuda",
+      "reload_max_probability_error": 1.1102230246251565e-16,
+      "cpu_vs_saved_gpu_max_probability_error": 0.0007118582725524902,
+      "cpu_vs_saved_gpu_changed_classes": 0
+    },
+    {
+      "model": "LSTM_len200",
+      "test_samples": 9916,
+      "metrics_match": true,
+      "checkpoint_reload_samples": 128,
+      "reload_device": "cuda",
+      "reload_max_probability_error": 1.1102230246251565e-16,
+      "cpu_vs_saved_gpu_max_probability_error": 0.001299440860748291,
+      "cpu_vs_saved_gpu_changed_classes": 0
+    },
+    {
+      "model": "GRU_len50",
+      "test_samples": 9916,
+      "metrics_match": true,
+      "checkpoint_reload_samples": 128,
+      "reload_device": "cuda",
+      "reload_max_probability_error": 1.1102230246251565e-16,
+      "cpu_vs_saved_gpu_max_probability_error": 0.001507103443145752,
+      "cpu_vs_saved_gpu_changed_classes": 0
+    },
+    {
+      "model": "GRU_len100",
+      "test_samples": 9916,
+      "metrics_match": true,
+      "checkpoint_reload_samples": 128,
+      "reload_device": "cuda",
+      "reload_max_probability_error": 1.1102230246251565e-16,
+      "cpu_vs_saved_gpu_max_probability_error": 0.001652538776397705,
+      "cpu_vs_saved_gpu_changed_classes": 0
+    },
+    {
+      "model": "GRU_len200",
+      "test_samples": 9916,
+      "metrics_match": true,
+      "checkpoint_reload_samples": 128,
+      "reload_device": "cuda",
+      "reload_max_probability_error": 1.1102230246251565e-16,
+      "cpu_vs_saved_gpu_max_probability_error": 0.0005654692649841309,
+      "cpu_vs_saved_gpu_changed_classes": 0
+    }
+  ],
+  "source_hashes_match": true,
+  "split_hashes_match": true,
+  "no_split_overlap": true,
+  "selection_uses_validation": true,
+  "application_reload_parity": true,
+  "invalid_input_rejected": true,
+  "six_error_examples": true,
+  "long_range_probes": 80,
+  "unit_test_output": "test_cell_matches_framework_forward_and_backward (test_implementation.ImplementationTests.test_cell_matches_framework_forward_and_backward) ... ok\ntest_cell_multiple_timesteps_and_weight_gradients (test_implementation.ImplementationTests.test_cell_multiple_timesteps_and_weight_gradients) ... ok\ntest_collation_retains_true_lengths (test_implementation.ImplementationTests.test_collation_retains_true_lengths) ... ok\ntest_padding_does_not_change_prediction (test_implementation.ImplementationTests.test_padding_does_not_change_prediction) ... ok\ntest_tokenizer_preserves_negation_and_order (test_implementation.ImplementationTests.test_tokenizer_preserves_negation_and_order) ... ok\ntest_vocabulary_uses_only_provided_training_text (test_implementation.ImplementationTests.test_vocabulary_uses_only_provided_training_text) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.028s\n\nOK\n",
+  "analysis_examples_complete": true,
+  "application_comments_complete": true,
+  "notebook": {
+    "file": "sequence_classification.ipynb",
+    "executed_code_cells": 14,
+    "errors": 0
+  }
+}
