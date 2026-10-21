@@ -1,7 +1,0 @@
-{
-  "application_model": "GRU_len200",
-  "application_checkpoint": "artifacts/GRU_len200/best.pt",
-  "application_max_length": 200,
-  "criterion": "validation F1 among LSTM/GRU; test scores not used",
-  "validation_f1": 0.8612252887062047
-}
